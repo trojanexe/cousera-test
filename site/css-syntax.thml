@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta sharset="utf-8">
+<title> Anatomy of CSS Rule</title>
+<style>
+p {
+	color: blue;
+	font-size: 20px;
+	width: 200px;
+}
+h1 {
+	color: green;
+	font-size: 36px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>Anatomy of CSS Rule</h1>
+<h2>Subheading 1</h2>
+<p>CSS works by associating rules with HTML elementes. These riles govern how content of specified elements should de displayed. A CSS rule contains two parts: a selector and a declaration.</p>
+<h2>Subheading 2</h2>
+<p>É muito melhor arriscar coisas grandiosas, alcançar triunfos e glórias, mesmo expondo-se a derrota, do que formar fila com os pobres de espírito que nem gozam muito nem sofrem muito, porque vivem nessa penumbra cinzenta que não conhece vitória nem derrota.</p>
+<p>Theodor Roosevelt 1910 &copy; Copyright</p>
+</body>
+</html>
