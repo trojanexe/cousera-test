@@ -14,6 +14,11 @@ h1 {
 	font-size: 36px;
 	text-align: center;
 }
+h6 {
+	color: blue;
+	font-size: 13px;
+	width: 200px;
+}
 </style>
 </head>
 <body>
@@ -21,7 +26,7 @@ h1 {
 <h2>Subheading 1</h2>
 <p>CSS works by associating rules with HTML elementes. These riles govern how content of specified elements should de displayed. A CSS rule contains two parts: a selector and a declaration.</p>
 <h2>Subheading 2</h2>
-<p>É muito melhor arriscar coisas grandiosas, alcançar triunfos e glórias, mesmo expondo-se a derrota, do que formar fila com os pobres de espírito que nem gozam muito nem sofrem muito, porque vivem nessa penumbra cinzenta que não conhece vitória nem derrota.</p>
-<p>Theodor Roosevelt 1910 &copy; Copyright</p>
+<p>&quot;&Eacute; muito melhor arriscar coisas grandiosas, alcan&ccedil;ar triunfos e gl&oacute;rias, mesmo expondo-se a derrota, do que formar fila com os pobres de esp&iacute;rito que nem gozam muito nem sofrem muito, porque vivem nessa penumbra cinzenta que n&atilde;o conhece vit&oacute;ria nem derrota.&quot;</p>
+<h6>Theodor Roosevelt 1910 &copy; Copyright</h6>
 </body>
 </html>
