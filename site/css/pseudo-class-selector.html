@@ -6,8 +6,9 @@
 <style>
 <style>
 /* Styles go here. */
+
 header li {
-  list-style: none;
+  list-style: none; /* don't work */
 }
 a:link, a:visited {
   text-decoration: none;
@@ -37,7 +38,10 @@ section div:nth-child(4):hover {
 </head>
 <body>
 <h1>Pseudo Class Selectors</h1>
-
+<style>
+header li {
+  list-style: none;
+</style>
 <header>
   <ul>
     <li><a href="/">Home</a></li>
