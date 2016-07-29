@@ -15,10 +15,11 @@ body {
 #box {
 	background-color: blue;
 	padding: 10px 20px 10px 20px;
-	border: 10px solid black;
-	margin: 40px; /*largest margin than h1(30px), so the margin between both is 40px*/
+	border: 5px solid black;
+	height: 50px;
+	margin-top: 50px;
 	width: 300px;
-	
+	overflow: auto; /*without tha selector auto, the text overflow, so using this make a scroll*/
 }
 #content {
 	background-color: #90EE90; /*green*/
@@ -31,7 +32,7 @@ h1 {
 <body>
 <h1>Box Model Size</h1>
 <div id="box">
-<div id="content">Como obter as medidas requeridas para a box</div>
+<div id="content">Como obter as medidas requeridas para a box e nao deixar que o texto fique pra fora da caixa (overflow) usando o selector overflow: auto; coloca o texto pra dentro da caixa e cria um scroll lateral.</div>
 </div>
 </body>
 </html>
