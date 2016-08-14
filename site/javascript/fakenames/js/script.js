@@ -1,19 +1,11 @@
-// Closures
-function makeMultiplier (multiplier) {
-  // var multiplier = 2;
-  function b() {
-    console.log("Multiplier is: " + multiplier);
+(function (window) {
+  var yaakovGreeter = {};
+  yaakovGreeter.name = "Yaakov";
+  var greeting = "Hello ";
+  yaakovGreeter.sayHello = function () {
+    console.log(greeting + yaakovGreeter.name);
   }
-  b();
 
+  window.yaakovGreeter = yaakovGreeter;
 
-  return (
-      function (x) {
-        return multiplier * x;
-      }
-
-    );
-}
-
-var doubleAll = makeMultiplier(2);
-console.log(doubleAll(10)); // its own exec env
+})(window);
